@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "poopins", sans-serif;
+    background-color: #050505;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-color: #6CB4EE;
+    
+}
+
+header .logo{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header nav ul li button{
+    background-color: transparent;
+    border: 1px solid grey;
+    width: 150px; 
+    height: 30px;
+    border-radius: 360px;
+    text-align: left;
+    cursor:text;
+}
+
+header .login button.signup{
+    color: black;
+    border-radius: 360px;
+    border: 3px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+header .login button.login{
+    color: white;
+    border-radius: 360px;
+    border: none;
+    background-color: #B9D9EB;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    color: black;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+header .login button.login:hover{
+    border-color: #1772c6;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+header .login button.signup:hover{
+    border-color: #1772c6;
+    color: #318CE7;
+    transition: ease-in-out 0.3s;
+}
+
+header nav ul li:hover{
+    display: flex;
+    background-color: #73C2FB;
+    height: 67px;
+    align-items: center;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+header nav ul li a{
+    margin: 10px;
+}
+
+main .konten{
+    background-image: linear-gradient(rgba(0, 0 , 0, 0.8), rgba(0, 0, 0, 0.8) ), url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 200px;  
+    justify-content: space-between; 
+}
+
+main .mainBox{
+    transform: translateY(-70px);
+    padding-left: 30px;
+    color: white;
+}
+
+main .mainBox h1{
+    font-size: 43px;
+}
+
+main .mainBox p{
+    line-height: 2;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    font-weight:200;
+}
+
+main .mainBox button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1772c6;
+    color: white;
+    cursor: pointer;
+    
+}
+
+main .mainBox button:hover{
+    background-color: #73C2FB;
+}
+
+main .box img{
+    width: 500px;
+    transform: translateY(-30px);
+}
+
+main .hero{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main .hero h1{
+    margin-left: 100px;
+    font-size: 36px;
+}
+
+main .hero button{
+    transform: translateX(330px);   
+    width: 110px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    background-color: #1772c6;
+    color: white;
+    cursor: pointer;
+}
+
+main .hero button:hover{
+    background-color: #6CB4EE;
+}
+
+main .boxHero{
+    display: grid;
+    color: white;
+    padding: 50px 0 50px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+
+}
+
+main .boxHero .card p{
+    font-weight: 200;
+}
+
+main .boxHero .card img{
+    width: 350px;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+main .boxHero .card img:hover{
+    width: 400px;
+}
+
+main .hero1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main .hero1 h1{
+    margin-left: 100px;
+    font-size: 36px;
+}
+
+main .hero1 button{
+    transform: translateX(330px);   
+    width: 110px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    background-color: #1772c6;
+    color: white;
+    cursor: pointer;
+}
+
+main .hero1 button:hover{
+    background-color: #6CB4EE;
+}
+
+main .boxHero1{
+    display: grid;
+    color: white;
+    padding: 50px 0 50px 0;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+
+}
+
+main .boxHero1 .card p{
+    font-weight: 200;
+}
+
+main .boxHero1 .card img{
+    width: 350px;
+    border-radius: 30px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+main .boxHero1 .card img:hover{
+    width: 400px;
+}
+
+main .hero2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+main .hero2 h1{
+    font-size: 36px;
+}
+
+main .hero2 button{
+    transform: translateX(280px);   
+    width: 110px;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    background-color: #1772c6;
+    color: white;
+    cursor: pointer;
+}
+
+main .hero2 button:hover{
+    background-color: #6CB4EE;
+}
+
+main .boxHero2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 50px 30px 50px 30px;
+    column-gap: 50px;
+    text-align: center;
+}
+
+main .boxHero2 img{
+    width: 215px;
+    border-radius: 20px;
+    transition: ease-out 0.3s;
+}
+
+main .boxHero2 img:hover{
+    width: 235px;
+}
+
+main .boxHero2 h3{
+    font-size: 16px;
+}
+
+footer{
+    background-color: #6CB4EE;
+    background-size: cover;
+    text-align: center;
+}
+
+footer .contact{
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+footer img{ 
+    margin: 10px;
+}
+
+footer .text{
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+}
